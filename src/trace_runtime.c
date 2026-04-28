@@ -52,6 +52,7 @@ static pid_t launch_tracee(char *const argv[])
      *
      * Em erro, imprima uma mensagem com perror() e retorne -1.
      */
+    pid_t pid = fork();
     fprintf(stderr, "erro: TODO Semana 2: implementar launch_tracee()\n");
     return -1;
 }
